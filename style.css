@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+}
+
+h2{
+    text-align: center;
+    font-size: 80px;
+}
+span{
+    color: beige;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#coment{
+    height: 70px;
+}
+
+
+.meu-formulario h3 {
+    color: white;
+}
+
+.meu-formulario{
+    width: 10%;
+    margin: 0 auto; 
+   
+}
+
+#enviar{
+    background-color: bisque;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
