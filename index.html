@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <section class="Contato">
+        <div class="contato-box">
+            <h2 class="titulo"> <span>Contato</span></h2>
+            <form class="meu-formulario" action="https://formsubmit.co/carloscruz@acad.ifma.edu.br" method="post">
+                <h3> Qual seu nome? </h3>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                <h3> Digite seu email: </h3>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <h3> Escreva o que <br>você achou do site: </h3>
+                <textarea name="coment" id="coment" cols="30" rows="5" placeholder="Escreva aqui"></textarea>
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                <input type="hidden" name="_cc" value="mrufino@acad.ifma.edu.br">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
